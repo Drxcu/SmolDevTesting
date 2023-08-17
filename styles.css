@@ -1,0 +1,73 @@
+/* styles.css */
+
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+body {
+  background-color: #1f2937;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4338ca;
+}
+
+.button-primary {
+  background-color: #4f46e5;
+}
+
+.button-primary:hover {
+  background-color: #4338ca;
+}
+
+.button-secondary {
+  background-color: #6b7280;
+}
+
+.button-secondary:hover {
+  background-color: #4b5563;
+}
+
+.button-tertiary {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+.button-tertiary:hover {
+  background-color: #e5e7eb;
+}
